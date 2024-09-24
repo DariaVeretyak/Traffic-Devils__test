@@ -51,18 +51,18 @@
 				</div>
 				<div class="hero__form-block">
 					<img src="img/hero-bg.webp" alt="generali" class="hero__bg">
-					<form action="#" class="hero__form" method="" data-dev data-popup-message="#sendConfirmation">
-						<label for="">
-							<input type="text" placeholder="il suo nome" class="input" data-required data-validate>
+					<form action="#" class="hero__form" method="POST" data-dev data-popup-message="#sendConfirmation">
+						<label for="user-surname">
+							<input type="text" name="user-surname" id="user-surname" placeholder="il suo nome" class="input" data-required data-validate>
 						</label>
-						<label for="">
-							<input type="text" placeholder="il suo cog" class="input" data-required data-validate>
+						<label for="user-name">
+							<input type="text" id="user-name" name="user-name" placeholder="il suo cog" class="input" data-required data-validate>
 						</label>
-						<label for="">
-							<input type="email" placeholder="e-mail" class="input" data-required data-validate="e-mail">
+						<label for="user-email">
+							<input id="user-email" name="user-email" type="email" placeholder="e-mail" class="input" data-required data-validate="e-mail">
 						</label>
 						<label for="user-tel">
-							<input id="user-tel" type="tel" class="input" data-required="tel" data-validate>
+							<input id="user-tel" name="user-tel" type="tel" class="input" data-required="tel" data-validate>
 						</label>
 						<span id="error-msg" class="hide"></span>
 						<button type="submit" class="button button--fw hero__submit">
@@ -78,7 +78,7 @@
 					<div class="purpose__img" data-da=".hero,767,1">
 						<picture>
 							<source srcset="img/purpose-img.webp" media="(min-width: 640px)" />
-							<img src="img/purpose-img-mob.webp" alt="">
+							<img src="img/purpose-img-mob.webp" alt="purpose">
 						</picture>
 					</div>
 					<div class="section__content purpose__content">
@@ -382,27 +382,27 @@
 				<div class="shareholders__title">Gli azionisti dell'azienda</div>
 				<div class="shareholders__content">
 					<picture>
-						<source srcset="img/partners/1.svg" alt="mediabanca" width="214" height="55" media="(min-width: 640px)">
+						<source srcset="img/partners/1.svg" width="214" height="55" media="(min-width: 640px)">
 						<img src="img/partners/1.svg" alt="mediabanca" width="126" height="32">
 					</picture>
 					<picture>
-						<source srcset="img/partners/2.svg" alt="mediabanca" width="170" height="34" media="(min-width: 640px)">
+						<source srcset="img/partners/2.svg"  width="170" height="34" media="(min-width: 640px)">
 						<img src="img/partners/2.svg" alt="mediabanca" width="100" height="20">
 					</picture>
 					<picture>
-						<source srcset="img/partners/3.svg" alt="mediabanca" width="200" height="47" media="(min-width: 640px)">
+						<source srcset="img/partners/3.svg" width="200" height="47" media="(min-width: 640px)">
 						<img src="img/partners/3.svg" alt="mediabanca" width="118" height="27">
 					</picture>
 					<picture>
-						<source srcset="img/partners/4.svg" alt="mediabanca" width="103" height="72" media="(min-width: 640px)">
+						<source srcset="img/partners/4.svg" width="103" height="72" media="(min-width: 640px)">
 						<img src="img/partners/4.svg" alt="mediabanca" width="61" height="42">
 					</picture>
 					<picture>
-						<source srcset="img/partners/5.svg" alt="mediabanca" width="209" height="32" media="(min-width: 640px)">
+						<source srcset="img/partners/5.svg" width="209" height="32" media="(min-width: 640px)">
 						<img src="img/partners/5.svg" alt="mediabanca" width="123" height="18">
 					</picture>
 					<picture>
-						<source srcset="img/partners/6.svg" alt="mediabanca" width="80" height="65" media="(min-width: 640px)">
+						<source srcset="img/partners/6.svg" width="80" height="65" media="(min-width: 640px)">
 						<img src="img/partners/6.svg" alt="mediabanca" width="47" height="38">
 					</picture>
 				</div>
