@@ -43,6 +43,7 @@
         if (document.querySelector(".icon-menu")) document.addEventListener("click", (function(e) {
             if (bodyLockStatus && e.target.closest(".icon-menu")) {
                 bodyLockToggle();
+                window.scrollTo(0, 0);
                 document.documentElement.classList.toggle("menu-open");
             }
         }));
